@@ -1,0 +1,29 @@
+.piece {
+    height: 32px;
+    width: 32px;
+    display: block;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player0 {
+    background-color: gray;
+}
+
+.player1 {
+    background-color: red;
+}
+
+.player2 {
+    background-color: black;
+    color: white;
+}
+
+/* set the board square to having a dark-grey border, and to be 36x36 square */
+
+.board_square {
+    border: 2px solid blue;
+    height: 36px;
+    width: 36px;
+}
